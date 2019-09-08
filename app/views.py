@@ -1,6 +1,6 @@
 from app import app
 from flask import render_template, request, jsonify
-from models import Message
+from app.models import Message
 from datetime import datetime
 
 
